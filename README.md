@@ -19,14 +19,14 @@ QuizzDOM is a fully responsive web app built using **React & Trivia API**.
 ## Screenshots
 
 ### Home Screen
-<img src="https://github.com/drkPrince/spotify-profile/blob/main/screenshots/homescreen.ng" />
+<img src="https://raw.githubusercontent.com/theneoterik/QuizzDOM/master/public/home.png" />
 
 ### The Quiz 
-<img src="https://github.com/drkPrince/spotify-profile/blob/main/screenshots/library.pg" />
+<img src="https://raw.githubusercontent.com/theneoterik/QuizzDOM/master/public/score.png" />
 
 ### Score
-<img src="https://github.com/drkPrince/spotify-profile/blob/main/screenshots/mood.pn" />
+<img src="https://raw.githubusercontent.com/theneoterik/QuizzDOM/master/public/score.png" />
 
 ### Score Tracking 
-<img src="https://github.com/drkPrince/spotify-profile/blob/main/screenshots/trackFeatures.pg" />
+<img src="https://raw.githubusercontent.com/theneoterik/QuizzDOM/master/public/feedback.png" />
 
