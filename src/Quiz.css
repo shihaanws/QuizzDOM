@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+.quiz {
+  font-family: 'Dosis', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding-left: 300px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .subtitle {
+    color: honeydew;
+    border-radius: 10px;
+    font-size: 25px;
+    border: 1px solid rgb(175, 174, 174);
+    background-color: rgb(2, 2, 2);
+    /* box-shadow: 4px 4px 2px black; */
+    padding: 5px 10px;
+  }
+  
+  .quizInfo {
+    font-weight: 1000;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding: 20px;
+    margin: 10px;
+  }
+
+
+  .leftscreen{
+color: rgb(255, 255, 255);
+height: 100vh;
+display: flex;
+align-items: center;
+width: 13%;
+background: #00111f;
+  }
+
+  .fullscreen{
+    display: flex;
+    /* flex-direction: row; */
+  }
+
+
+  .user{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    /* padding: 30%; */
+    height: 10vh;
+    /* text-transform: uppercase; */
+    /* justify-content: center;
+    align-items: center; */
+  }
+.user>span{
+  padding: 10px;
+}
+
+.logout{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.score{
+  color: rgb(3, 230, 3);
+}
+.username{
+  color: azure;
+  text-transform: uppercase;
+  font-size: larger;
+}
+
+  .dashboard{
+    padding: 30%;
+    background-color:green;
+    opacity: 0.5
+
+  }
+
+  @media (max-width: 800px) {
+    .username {
+      display: none;
+    }
+    .leftscreen{
+      display: none;
+    }
+
+    .quiz {
+      font-family: 'Dosis', sans-serif;
+      display: flex;
+      flex-direction: column;
+      padding-left: 0px;
+      justify-content: center;
+      align-items: center;
+      font-family: "Poppins", sans-serif;
+    }
+    
+  }

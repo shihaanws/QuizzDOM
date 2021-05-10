@@ -1,0 +1,79 @@
+.question {
+    width: 1000px;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+  .singleQuestion {
+    box-shadow: yellow 5px;
+    font-family: 'Dosis', sans-serif;
+    box-shadow: 5px 11px 17px -4px rgba(0,0,0,0.49);
+    -webkit-box-shadow: 5px 11px 17px -4px rgba(0,0,0,0.49);
+    -moz-box-shadow: 5px 11px 17px -4px rgba(0,0,0,0.49);
+    width: 95%;
+    color:white;
+    background-color: black;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+  }
+  
+  .options {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+  }
+  
+  .singleOption {
+    width: 46%;
+    height: 50px;
+    padding: 15px 20px;
+    margin: 10px;
+    box-shadow: 0 0 2px black;
+  }
+  
+  @media (max-width: 614px) {
+    .singleOption {
+      width: 100%;
+    }
+  .options{
+      width: 50%;
+    }
+    .question {
+      width: 100%;
+      position: sticky;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  .controls {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  .select {
+    background-color: rgb(7, 207, 0);
+    color: white;
+    box-shadow: 0 0 1px black;
+  }
+  
+  .wrong {
+    background-color: rgb(233, 0, 0);
+    color: white;
+    box-shadow: 0 0 1px black;
+  }

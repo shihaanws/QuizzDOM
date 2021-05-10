@@ -1,0 +1,49 @@
+.title {
+    /* text-transform: uppercase; */
+    padding-left: 5%;
+    font-size: 35px;
+    padding-top: 40px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    display: flex;
+   
+    
+  }
+
+  .title:hover{
+    text-decoration: none;
+    color: inherit;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+    .header {
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .tagline{
+    height: 100%;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-left: 7.5%;
+    font-size: 20px;
+    text-align: left;  
+    font-weight: lighter;  
+  }
+
+  .head{
+    background: #1c92d2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f2fcfe, #02e620);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f2fcfe, #02e620); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .head > span{
+    margin-left: 7.5%;
+  }
+  
+
+
+
