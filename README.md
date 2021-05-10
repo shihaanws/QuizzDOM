@@ -5,7 +5,7 @@
 
 QuizzDOM is a fully responsive web app built using **React & Trivia API**.
 
-[Try the Quiz](http://quizzdom.vercel.app).
+[Try the Quiz here !](http://quizzdom.vercel.app)
 
 
 ## Tech Stack
