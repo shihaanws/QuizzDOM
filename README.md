@@ -22,7 +22,7 @@ QuizzDOM is a fully responsive web app built using **React & Trivia API**.
 <img src="https://raw.githubusercontent.com/theneoterik/QuizzDOM/master/public/home.png" />
 
 ### The Quiz 
-<img src="https://raw.githubusercontent.com/theneoterik/QuizzDOM/master/public/score.png" />
+<img src="https://raw.githubusercontent.com/theneoterik/QuizzDOM/master/public/quiz.png" />
 
 ### Score
 <img src="https://raw.githubusercontent.com/theneoterik/QuizzDOM/master/public/score.png" />
